@@ -1,0 +1,5 @@
+* initial
+  remotes/origin/EX0.2
+  remotes/origin/HEAD -> origin/initial
+  remotes/origin/initial
+  remotes/origin/master

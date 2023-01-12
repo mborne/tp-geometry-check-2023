@@ -1,0 +1,18 @@
+{
+  "name": "tp-geometry-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node process-all.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.2",
+    "http-server": "^14.0.0",
+    "shelljs": "^0.8.4",
+    "xmldom": "^0.6.0",
+    "xpath": "^0.0.32"
+  }
+}
