@@ -38,11 +38,11 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.CoordinateTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
 Running org.acme.geometry.PointTest
 Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.LineStringTest
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.EnveloppeBuilderTest
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
@@ -60,6 +60,6 @@ Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.287 s
-[INFO] Finished at: 2023-01-12T14:30:10+01:00
+[INFO] Total time:  2.038 s
+[INFO] Finished at: 2023-01-12T15:23:30+01:00
 [INFO] ------------------------------------------------------------------------

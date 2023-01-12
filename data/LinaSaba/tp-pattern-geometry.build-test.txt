@@ -22,24 +22,46 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 6 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/src/main/java/org/acme/geometry/EnvelopeBuilder.java:[22,5] missing return statement
-[INFO] 1 error
-[INFO] -------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
+[INFO] Surefire report directory: /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.acme.geometry.EnvelopeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running org.acme.geometry.CoordinateTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.acme.geometry.PointTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.acme.geometry.EnvelopeBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.acme.geometry.LineStringTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
+[INFO] Building jar: /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/target/tp-pattern-geometry-0.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:report (default-cli) @ tp-pattern-geometry ---
+[INFO] Loading execution data file /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/target/jacoco.exec
+[INFO] Analyzed bundle 'tp-pattern-geometry' with 5 classes
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.144 s
-[INFO] Finished at: 2023-01-12T14:31:40+01:00
+[INFO] Total time:  2.064 s
+[INFO] Finished at: 2023-01-12T15:24:56+01:00
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project tp-pattern-geometry: Compilation failure
-[ERROR] /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/src/main/java/org/acme/geometry/EnvelopeBuilder.java:[22,5] missing return statement
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

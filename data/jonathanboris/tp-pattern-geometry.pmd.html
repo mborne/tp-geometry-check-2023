@@ -2,6 +2,7 @@
 <center><h2>Summary</h2></center>
 <table align="center" cellspacing="0" cellpadding="3">
 <tr><th>Rule name</th><th>Number of violations</th></tr>
+<tr><td>UseLocaleWithCaseConversions</td><td align=center>2</td></tr>
 <tr><td>LocalVariableNamingConventions</td><td align=center>4</td></tr>
 <tr><td>FormalParameterNamingConventions</td><td align=center>3</td></tr>
 <tr><td>UnnecessaryLocalBeforeReturn</td><td align=center>3</td></tr>
@@ -81,5 +82,17 @@
 <td width="*%">org/acme/geometry/Point.java</td>
 <td align="center" width="5%">45</td>
 <td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn">Consider simply returning the value vs storing it in local variable 'envelope'</a></td>
+</tr>
+<tr bgcolor="lightgrey"> 
+<td align="center">13</td>
+<td width="*%">org/acme/geometry/WktWriter.java</td>
+<td align="center" width="5%">11</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions">When doing a String.toLowerCase()/toUpperCase() call, use a Locale</a></td>
+</tr>
+<tr> 
+<td align="center">14</td>
+<td width="*%">org/acme/geometry/WktWriter.java</td>
+<td align="center" width="5%">23</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions">When doing a String.toLowerCase()/toUpperCase() call, use a Locale</a></td>
 </tr>
 </table></tr></table></body></html>

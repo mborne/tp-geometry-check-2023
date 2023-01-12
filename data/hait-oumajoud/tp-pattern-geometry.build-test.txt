@@ -4,6 +4,14 @@ WARNING: Please consider reporting this to the maintainers of com.google.inject.
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
 [INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.acme:tp-pattern-geometry:jar:0.1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for org.jetbrains:annotations:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 37, column 22
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
 [INFO] 
 [INFO] --------------------< org.acme:tp-pattern-geometry >--------------------
 [INFO] Building tp-pattern-geometry 0.1.0-SNAPSHOT
@@ -21,7 +29,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 4 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/classes
+[INFO] Compiling 6 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/classes
 [WARNING] /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/java/org/acme/geometry/LineString.java: /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/java/org/acme/geometry/LineString.java uses unchecked or unsafe operations.
 [WARNING] /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/java/org/acme/geometry/LineString.java: Recompile with -Xlint:unchecked for details.
 [INFO] 
@@ -31,7 +39,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 3 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/test-classes
+[INFO] Compiling 5 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
 [INFO] Surefire report directory: /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/surefire-reports
@@ -39,16 +47,20 @@ WARNING: All illegal access operations will be denied in a future release
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
+Running org.acme.geometry.EnvelopeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
 Running org.acme.geometry.CoordinateTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
 Running org.acme.geometry.PointTest
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.acme.geometry.EnvelopeBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.LineStringTest
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 
 Results :
 
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
@@ -56,10 +68,10 @@ Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.6:report (default-cli) @ tp-pattern-geometry ---
 [INFO] Loading execution data file /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/jacoco.exec
-[INFO] Analyzed bundle 'tp-pattern-geometry' with 3 classes
+[INFO] Analyzed bundle 'tp-pattern-geometry' with 5 classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.171 s
-[INFO] Finished at: 2023-01-12T14:30:56+01:00
+[INFO] Total time:  2.259 s
+[INFO] Finished at: 2023-01-12T15:24:13+01:00
 [INFO] ------------------------------------------------------------------------
