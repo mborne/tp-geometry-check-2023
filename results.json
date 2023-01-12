@@ -3,10 +3,10 @@
     "username": "baptisteRiviere",
     "repositoryUrl": "https://github.com/baptisteRiviere/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "cd108d22a2b16b6fae340893a8b2c2677cf592cc",
+    "commitId": "396c877b88c880cd90907ac7a2e0791114e01994",
     "build": true,
     "test": true,
-    "coverage": 96,
+    "coverage": 96.6,
     "pmd": true
   },
   {
@@ -23,7 +23,7 @@
     "username": "Emmaloup13",
     "repositoryUrl": "https://github.com/Emmaloup13/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "e04c96f098c2008d13d5850660aa7efc0cdd2b64",
+    "commitId": "84cdd6c7a0355383388087fdbac40ff231bb65ee",
     "build": true,
     "test": true,
     "coverage": 100,
@@ -43,10 +43,10 @@
     "username": "Erzalt",
     "repositoryUrl": "https://github.com/Erzalt/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "fc2405faa575880edd764220fa6b05edb34a3f67",
+    "commitId": "ad3d73e08ea6ad17b06a4bc826be98ff06208a30",
     "build": true,
     "test": true,
-    "coverage": 97,
+    "coverage": 96.7,
     "pmd": true
   },
   {
@@ -83,10 +83,10 @@
     "username": "IlonaBaran",
     "repositoryUrl": "https://github.com/IlonaBaran/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "563f4c3658bfb57fcb15665852d2015b10dfd513",
+    "commitId": "da48b992c590df419160f9ab9fb77e94a7ece010",
     "build": true,
     "test": true,
-    "coverage": 99.8,
+    "coverage": 98.4,
     "pmd": true
   },
   {
@@ -103,10 +103,10 @@
     "username": "jonathanboris",
     "repositoryUrl": "https://github.com/jonathanboris/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "209707fe3068ac509897ff2b36fac6688910d315",
+    "commitId": "0acd89fe965ae9a6f1a218af8d7ea1be2c6ad503",
     "build": true,
     "test": true,
-    "coverage": 95,
+    "coverage": 92.4,
     "pmd": true
   },
   {
@@ -123,10 +123,10 @@
     "username": "LinaSaba",
     "repositoryUrl": "https://github.com/LinaSaba/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "4c539bc00fe29c6bdac01617a22c2cb150e1b3c5",
-    "build": true,
-    "test": true,
-    "coverage": 96.8,
+    "commitId": "e12c3cd555fb2c39958b9ac38ee2e9622a032f53",
+    "build": false,
+    "test": false,
+    "coverage": 0,
     "pmd": true
   },
   {
@@ -163,7 +163,7 @@
     "username": "VenziaTurmoil",
     "repositoryUrl": "https://github.com/VenziaTurmoil/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "5b80d1c469b371008db0e01289048d580e064797",
+    "commitId": "e871127c3dfd78c50c78c579f0b372bacc4c0bc0",
     "build": true,
     "test": true,
     "coverage": 97.3,
