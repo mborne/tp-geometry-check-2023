@@ -21,7 +21,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/GTiazara/tp-pattern-geometry/target/classes
+[INFO] Compiling 7 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/GTiazara/tp-pattern-geometry/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -29,7 +29,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 5 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/GTiazara/tp-pattern-geometry/target/test-classes
+[INFO] Compiling 6 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/GTiazara/tp-pattern-geometry/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
 [INFO] Surefire report directory: /home/formation/workspace_mborne/tp-geometry-check-2023/data/GTiazara/tp-pattern-geometry/target/surefire-reports
@@ -38,19 +38,22 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.EnveloppeTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec
 Running org.acme.geometry.CoordinateTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.PointTest
 Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.EnvelopeBuilderTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.acme.geometry.WktWriterTest
+LINESTRING(2.0 2.2,3.0 4.2)
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running org.acme.geometry.LineStringTest
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
 
 Results :
 
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
@@ -58,10 +61,10 @@ Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.6:report (default-cli) @ tp-pattern-geometry ---
 [INFO] Loading execution data file /home/formation/workspace_mborne/tp-geometry-check-2023/data/GTiazara/tp-pattern-geometry/target/jacoco.exec
-[INFO] Analyzed bundle 'tp-pattern-geometry' with 5 classes
+[INFO] Analyzed bundle 'tp-pattern-geometry' with 6 classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.175 s
-[INFO] Finished at: 2023-01-12T13:37:31+01:00
+[INFO] Total time:  2.064 s
+[INFO] Finished at: 2023-01-12T14:30:46+01:00
 [INFO] ------------------------------------------------------------------------

@@ -28,7 +28,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 4 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/OmranEdoo/tp-pattern-geometry/target/classes
+[INFO] Compiling 6 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/OmranEdoo/tp-pattern-geometry/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -36,9 +36,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 3 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/OmranEdoo/tp-pattern-geometry/target/test-classes
-[WARNING] /home/formation/workspace_mborne/tp-geometry-check-2023/data/OmranEdoo/tp-pattern-geometry/src/test/java/org/acme/geometry/LineStringTest.java: Some input files use or override a deprecated API.
-[WARNING] /home/formation/workspace_mborne/tp-geometry-check-2023/data/OmranEdoo/tp-pattern-geometry/src/test/java/org/acme/geometry/LineStringTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] Compiling 5 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/OmranEdoo/tp-pattern-geometry/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
 [INFO] Tests are skipped.
@@ -48,6 +46,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.385 s
-[INFO] Finished at: 2023-01-12T13:38:36+01:00
+[INFO] Total time:  1.493 s
+[INFO] Finished at: 2023-01-12T14:31:54+01:00
 [INFO] ------------------------------------------------------------------------

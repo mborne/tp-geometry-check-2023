@@ -30,8 +30,8 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.196 s
-[INFO] Finished at: 2023-01-12T13:38:20+01:00
+[INFO] Total time:  1.210 s
+[INFO] Finished at: 2023-01-12T14:31:37+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project tp-pattern-geometry: Compilation failure
 [ERROR] /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/src/main/java/org/acme/geometry/EnvelopeBuilder.java:[22,5] missing return statement

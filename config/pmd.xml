@@ -240,7 +240,7 @@
     <rule ref="category/java/errorprone.xml/NonStaticInitializer"/>
     <!-- <rule ref="category/java/errorprone.xml/NullAssignment" /> -->
     <rule ref="category/java/errorprone.xml/OverrideBothEqualsAndHashcode"/>
-    <rule ref="category/java/errorprone.xml/ProperCloneImplementation"/>
+    <!-- <rule ref="category/java/errorprone.xml/ProperCloneImplementation"/> -->
     <rule ref="category/java/errorprone.xml/ProperLogger"/>
     <rule ref="category/java/errorprone.xml/ReturnEmptyCollectionRatherThanNull"/>
     <rule ref="category/java/errorprone.xml/ReturnFromFinallyBlock"/>
@@ -252,9 +252,9 @@
     <rule ref="category/java/errorprone.xml/SuspiciousEqualsMethodName"/>
     <rule ref="category/java/errorprone.xml/SuspiciousHashcodeMethodName"/>
     <rule ref="category/java/errorprone.xml/SuspiciousOctalEscape"/>
-    <!-- <rule ref="category/java/errorprone.xml/TestClassWithoutTestCases" /> -->
+    <rule ref="category/java/errorprone.xml/TestClassWithoutTestCases" />
     <rule ref="category/java/errorprone.xml/UnconditionalIfStatement"/>
-    <!-- <rule ref="category/java/errorprone.xml/UnnecessaryBooleanAssertion" /> -->
+    <rule ref="category/java/errorprone.xml/UnnecessaryBooleanAssertion" />
     <!-- <rule ref="category/java/errorprone.xml/UnnecessaryCaseChange" /> -->
     <rule ref="category/java/errorprone.xml/UnnecessaryConversionTemporary"/>
     <rule ref="category/java/errorprone.xml/UnusedNullCheckInEquals"/>

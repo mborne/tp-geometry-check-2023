@@ -21,7 +21,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 6 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/Nelcannelle/tp-pattern-geometry/target/classes
+[INFO] Compiling 7 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/Nelcannelle/tp-pattern-geometry/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -29,7 +29,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 5 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/Nelcannelle/tp-pattern-geometry/target/test-classes
+[INFO] Compiling 6 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/Nelcannelle/tp-pattern-geometry/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
 [INFO] Tests are skipped.
@@ -39,6 +39,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.448 s
-[INFO] Finished at: 2023-01-12T13:38:28+01:00
+[INFO] Total time:  1.492 s
+[INFO] Finished at: 2023-01-12T14:31:46+01:00
 [INFO] ------------------------------------------------------------------------
