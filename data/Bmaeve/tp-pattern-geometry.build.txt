@@ -38,6 +38,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.425 s
-[INFO] Finished at: 2023-01-12T11:42:13+01:00
+[INFO] Total time:  1.436 s
+[INFO] Finished at: 2023-01-12T12:04:38+01:00
 [INFO] ------------------------------------------------------------------------

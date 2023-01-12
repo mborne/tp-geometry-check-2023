@@ -21,7 +21,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 4 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/Sam-design99/tp-pattern-geometry/target/classes
-[WARNING] /home/formation/workspace_mborne/tp-geometry-check-2023/data/Sam-design99/tp-pattern-geometry/src/main/java/org/acme/geometry/Geometry.java:[3,19] sun.awt.X11.XTranslateCoordinates is internal proprietary API and may be removed in a future release
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -29,7 +28,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 2 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/Sam-design99/tp-pattern-geometry/target/test-classes
+[INFO] Compiling 3 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/Sam-design99/tp-pattern-geometry/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
 [INFO] Tests are skipped.
@@ -39,6 +38,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.317 s
-[INFO] Finished at: 2023-01-12T11:43:40+01:00
+[INFO] Total time:  1.307 s
+[INFO] Finished at: 2023-01-12T12:06:07+01:00
 [INFO] ------------------------------------------------------------------------

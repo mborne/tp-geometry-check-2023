@@ -39,8 +39,8 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.074 s
-[INFO] Finished at: 2023-01-12T11:43:23+01:00
+[INFO] Total time:  1.136 s
+[INFO] Finished at: 2023-01-12T12:05:50+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project tp-pattern-geometry: Compilation failure
 [ERROR] /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/src/test/java/org/acme/geometry/LineStringTest.java:[51,56] ';' expected
