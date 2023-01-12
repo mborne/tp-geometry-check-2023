@@ -38,7 +38,7 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.CoordinateTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
 
 Results :
 
@@ -54,6 +54,6 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.996 s
-[INFO] Finished at: 2023-01-12T12:14:28+01:00
+[INFO] Total time:  1.985 s
+[INFO] Finished at: 2023-01-12T12:27:09+01:00
 [INFO] ------------------------------------------------------------------------

@@ -40,15 +40,15 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.CoordinateTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
 Running org.acme.geometry.PointTest
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.LineStringTest
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 
 Results :
 
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
@@ -60,6 +60,6 @@ Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.012 s
-[INFO] Finished at: 2023-01-12T12:14:55+01:00
+[INFO] Total time:  2.060 s
+[INFO] Finished at: 2023-01-12T12:27:43+01:00
 [INFO] ------------------------------------------------------------------------

@@ -42,7 +42,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
 Running org.acme.geometry.PointTest
 Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.LineStringTest
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
 Results :
 
@@ -58,6 +58,6 @@ Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.270 s
-[INFO] Finished at: 2023-01-12T12:14:22+01:00
+[INFO] Total time:  2.107 s
+[INFO] Finished at: 2023-01-12T12:27:01+01:00
 [INFO] ------------------------------------------------------------------------

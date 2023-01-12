@@ -38,9 +38,9 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.CoordinateTest
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
 Running org.acme.geometry.PointTest
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.LineStringTest
 Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
@@ -58,6 +58,6 @@ Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.937 s
-[INFO] Finished at: 2023-01-12T12:15:28+01:00
+[INFO] Total time:  2.045 s
+[INFO] Finished at: 2023-01-12T12:28:25+01:00
 [INFO] ------------------------------------------------------------------------

@@ -91,7 +91,8 @@ for (const [username, repositoryUrl] of Object.entries(repositories)) {
     {
         let pmdReportPath = `${repositoryDir}.pmd.html`;
         let pmdConfigPath = __dirname+'/config/pmd.xml';
-        let commandPmd = `/opt/pmd-bin-6.41.0/bin/run.sh pmd --dir src/main/java --rulesets ${pmdConfigPath} --short-names --format summaryhtml --report-file ${pmdReportPath}`;
+        // TODO PMD_PATH
+        let commandPmd = `/opt/pmd-bin-6.53.0/bin/run.sh pmd --dir src/main/java --rulesets ${pmdConfigPath} --short-names --format summaryhtml --report-file ${pmdReportPath}`;
         shell.exec(commandPmd,{silent: true});
         result.pmd = fs.existsSync(pmdReportPath);
         console.log('PMD : ' + (result.pmd ? 'SUCCESS' : 'FAILURE'));

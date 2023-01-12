@@ -3,11 +3,11 @@
     "username": "baptisteRiviere",
     "repositoryUrl": "https://github.com/baptisteRiviere/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "41d9bc4d8dd156da6f9c1b5cca36d64b6bd8d710",
+    "commitId": "cd108d22a2b16b6fae340893a8b2c2677cf592cc",
     "build": true,
     "test": true,
-    "coverage": 96.3,
-    "pmd": false
+    "coverage": 96,
+    "pmd": true
   },
   {
     "username": "Bmaeve",
@@ -17,7 +17,7 @@
     "build": true,
     "test": true,
     "coverage": 98.8,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Emmaloup13",
@@ -27,7 +27,7 @@
     "build": true,
     "test": true,
     "coverage": 100,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "EnzoVenon",
@@ -37,7 +37,7 @@
     "build": true,
     "test": true,
     "coverage": 0,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Erzalt",
@@ -47,7 +47,7 @@
     "build": true,
     "test": true,
     "coverage": 97,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Fernando-IRQ",
@@ -57,27 +57,27 @@
     "build": true,
     "test": true,
     "coverage": 68,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "GTiazara",
     "repositoryUrl": "https://github.com/GTiazara/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "62c05781c644deb0d3123df92f52c4a0e72f7a37",
+    "commitId": "8f961d42a5e9b3eed27d1b15bf83819acdd4366a",
     "build": true,
     "test": true,
-    "coverage": 90.1,
-    "pmd": false
+    "coverage": 92.4,
+    "pmd": true
   },
   {
     "username": "hait-oumajoud",
     "repositoryUrl": "https://gitlab.com/hait-oumajoud/tp-pattern-geometry",
     "branchName": "master",
-    "commitId": "e6b0461878af8614272b67af4f1491cd9823d48c",
+    "commitId": "0c3062fcd004027f5768cfbd5627401e0482126c",
     "build": true,
     "test": true,
-    "coverage": 75.2,
-    "pmd": false
+    "coverage": 80.7,
+    "pmd": true
   },
   {
     "username": "IlonaBaran",
@@ -87,7 +87,7 @@
     "build": true,
     "test": true,
     "coverage": 99.8,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Jackigeo",
@@ -97,7 +97,7 @@
     "build": true,
     "test": true,
     "coverage": 100,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "jonathanboris",
@@ -107,7 +107,7 @@
     "build": true,
     "test": true,
     "coverage": 95,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "kingatsa",
@@ -117,7 +117,7 @@
     "build": true,
     "test": true,
     "coverage": 100,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "LinaSaba",
@@ -127,17 +127,17 @@
     "build": true,
     "test": true,
     "coverage": 96.8,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Nelcannelle",
     "repositoryUrl": "https://gitlab.com/Nelcannelle/design_patterns",
     "branchName": "master",
-    "commitId": "044e48c94844db960ea401f85bd358932cf79fda",
+    "commitId": "526dee6d00b7e3cd33f49679cb5b187fc0e55001",
     "build": true,
     "test": true,
-    "coverage": 66,
-    "pmd": false
+    "coverage": 98.3,
+    "pmd": true
   },
   {
     "username": "OmranEdoo",
@@ -147,7 +147,7 @@
     "build": true,
     "test": true,
     "coverage": 15.9,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Sam-design99",
@@ -157,16 +157,16 @@
     "build": true,
     "test": true,
     "coverage": 71.7,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "VenziaTurmoil",
     "repositoryUrl": "https://github.com/VenziaTurmoil/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "1b76e392c2ee30a76330b12f31a50017b2fdc65e",
+    "commitId": "5b80d1c469b371008db0e01289048d580e064797",
     "build": true,
     "test": true,
-    "coverage": 96.9,
-    "pmd": false
+    "coverage": 97.3,
+    "pmd": true
   }
 ]
