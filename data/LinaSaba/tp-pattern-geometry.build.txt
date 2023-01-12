@@ -29,24 +29,15 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/target/test-classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/src/test/java/org/acme/geometry/LineStringTest.java:[51,56] ';' expected
-[INFO] 1 error
-[INFO] -------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
+[INFO] Building jar: /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/target/tp-pattern-geometry-0.1.0-SNAPSHOT.jar
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.079 s
-[INFO] Finished at: 2023-01-12T12:05:48+01:00
+[INFO] Total time:  1.364 s
+[INFO] Finished at: 2023-01-12T12:15:25+01:00
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project tp-pattern-geometry: Compilation failure
-[ERROR] /home/formation/workspace_mborne/tp-geometry-check-2023/data/LinaSaba/tp-pattern-geometry/src/test/java/org/acme/geometry/LineStringTest.java:[51,56] ';' expected
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
