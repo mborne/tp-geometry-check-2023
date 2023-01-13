@@ -16,72 +16,36 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------< org.acme:tp-pattern-geometry >--------------------
 [INFO] Building tp-pattern-geometry 0.1.0-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/maven-metadata.xml
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/maven-metadata.xml (1.4 kB at 4.6 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.pom (3.2 kB at 160 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.2/junit-bom-5.9.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.2/junit-bom-5.9.2.pom (5.6 kB at 268 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.pom (3.2 kB at 151 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 89 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom (2.8 kB at 135 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom (1.5 kB at 85 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.pom (3.0 kB at 94 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.pom (3.2 kB at 178 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom (3.2 kB at 152 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar (6.8 kB at 86 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar (6.4 kB at 74 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (7.7 kB at 51 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar (247 kB at 1.5 MB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar (208 kB at 1.2 MB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar (580 kB at 3.4 MB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar (103 kB at 566 kB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar (189 kB at 1.0 MB/s)
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tp-pattern-geometry ---
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (default) @ tp-pattern-geometry ---
-[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/mickael/workspace_formation/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/formation/workspace_mborne/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/mickael/workspace_formation/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/src/main/resources
+[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 17 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/target/classes
+[INFO] Compiling 17 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/mickael/workspace_formation/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/src/test/resources
+[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/target/test-classes
+[INFO] Compiling 11 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
-[INFO] Building jar: /home/mickael/workspace_formation/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/target/tp-pattern-geometry-0.1.0-SNAPSHOT.jar
+[INFO] Building jar: /home/formation/workspace_mborne/tp-geometry-check-2023/data/VenziaTurmoil/tp-pattern-geometry/target/tp-pattern-geometry-0.1.0-SNAPSHOT.jar
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.556 s
-[INFO] Finished at: 2023-01-12T22:37:38+01:00
+[INFO] Total time:  1.522 s
+[INFO] Finished at: 2023-01-13T15:50:18+01:00
 [INFO] ------------------------------------------------------------------------

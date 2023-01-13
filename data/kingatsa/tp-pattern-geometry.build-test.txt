@@ -10,57 +10,57 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tp-pattern-geometry ---
-[INFO] Deleting /home/mickael/workspace_formation/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target
+[INFO] Deleting /home/formation/workspace_mborne/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (default) @ tp-pattern-geometry ---
-[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/mickael/workspace_formation/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/formation/workspace_mborne/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/mickael/workspace_formation/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/src/main/resources
+[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 10 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/classes
+[INFO] Compiling 10 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/mickael/workspace_formation/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/src/test/resources
+[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 9 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/test-classes
+[INFO] Compiling 9 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
-[INFO] Surefire report directory: /home/mickael/workspace_formation/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/surefire-reports
+[INFO] Surefire report directory: /home/formation/workspace_mborne/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/surefire-reports
 
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
-Running org.acme.geometry.EnveloppeTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
-Running org.acme.geometry.LineStringTest
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
-Running org.acme.geometry.CoordinateTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running org.acme.geometry.PointTest
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running org.acme.geometry.EnveloppeBuilderTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
-Running org.acme.geometry.LogGeometryVisitorTest
-Je suis un point avec x=2.0 et y=3.0
-Je suis une polyligne définie par 3 point(s)
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
 Running org.acme.geometry.WktVisitorTest
 LINESTRING(0.0 0.0,1.0 1.0,5.0 5.0)
 LINESTRING EMPTY
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec
+Running org.acme.geometry.EnveloppeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.acme.geometry.CoordinateTest
 Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.acme.geometry.PointTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.acme.geometry.LogGeometryVisitorTest
+Je suis un point avec x=2.0 et y=3.0
+Je suis une polyligne définie par 3 point(s)
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.WktWriterTest
 POINT(3.0 4.0)
 LINESTRING(0.0 0.0,1.0 1.0,5.0 5.0)
 LINESTRING EMPTY
 POINT EMPTY
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.acme.geometry.LineStringTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.acme.geometry.EnveloppeBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
 Results :
 
@@ -68,14 +68,14 @@ Tests run: 36, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
-[INFO] Building jar: /home/mickael/workspace_formation/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/tp-pattern-geometry-0.1.0-SNAPSHOT.jar
+[INFO] Building jar: /home/formation/workspace_mborne/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/tp-pattern-geometry-0.1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.6:report (default-cli) @ tp-pattern-geometry ---
-[INFO] Loading execution data file /home/mickael/workspace_formation/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/jacoco.exec
+[INFO] Loading execution data file /home/formation/workspace_mborne/tp-geometry-check-2023/data/kingatsa/tp-pattern-geometry/target/jacoco.exec
 [INFO] Analyzed bundle 'tp-pattern-geometry' with 8 classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.221 s
-[INFO] Finished at: 2023-01-12T22:37:05+01:00
+[INFO] Total time:  2.066 s
+[INFO] Finished at: 2023-01-13T15:49:38+01:00
 [INFO] ------------------------------------------------------------------------

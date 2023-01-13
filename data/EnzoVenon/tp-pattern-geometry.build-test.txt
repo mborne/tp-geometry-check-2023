@@ -10,32 +10,32 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tp-pattern-geometry ---
-[INFO] Deleting /home/mickael/workspace_formation/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/target
+[INFO] Deleting /home/formation/workspace_mborne/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/target
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (default) @ tp-pattern-geometry ---
-[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/mickael/workspace_formation/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/formation/workspace_mborne/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/mickael/workspace_formation/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/src/main/resources
+[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 13 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/target/classes
+[INFO] Compiling 13 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/mickael/workspace_formation/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/src/main/java/org/acme/geometry/GeometryWithCachedEnvelope.java:[3,8] org.acme.geometry.GeometryWithCachedEnvelope is not abstract and does not override abstract method onChange(org.acme.geometry.Geometry) in org.acme.geometry.GeometryListener
+[ERROR] /home/formation/workspace_mborne/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/src/main/java/org/acme/geometry/GeometryWithCachedEnvelope.java:[3,8] org.acme.geometry.GeometryWithCachedEnvelope is not abstract and does not override abstract method onChange(org.acme.geometry.Geometry) in org.acme.geometry.GeometryListener
 [INFO] 1 error
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.097 s
-[INFO] Finished at: 2023-01-12T22:36:11+01:00
+[INFO] Total time:  1.243 s
+[INFO] Finished at: 2023-01-13T15:48:24+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project tp-pattern-geometry: Compilation failure
-[ERROR] /home/mickael/workspace_formation/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/src/main/java/org/acme/geometry/GeometryWithCachedEnvelope.java:[3,8] org.acme.geometry.GeometryWithCachedEnvelope is not abstract and does not override abstract method onChange(org.acme.geometry.Geometry) in org.acme.geometry.GeometryListener
+[ERROR] /home/formation/workspace_mborne/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/src/main/java/org/acme/geometry/GeometryWithCachedEnvelope.java:[3,8] org.acme.geometry.GeometryWithCachedEnvelope is not abstract and does not override abstract method onChange(org.acme.geometry.Geometry) in org.acme.geometry.GeometryListener
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.

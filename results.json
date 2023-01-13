@@ -23,7 +23,7 @@
     "username": "Emmaloup13",
     "repositoryUrl": "https://github.com/Emmaloup13/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "7e29ed3c0fc4f7be75e01cef1dc7d1083a53372e",
+    "commitId": "56ff07302f186d719c32c3635cdf17fb2b32f357",
     "build": true,
     "test": true,
     "coverage": 96.5,
@@ -53,30 +53,30 @@
     "username": "Fernando-IRQ",
     "repositoryUrl": "https://github.com/Fernando-IRQ/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "2927c8b4aa11261be246e320ab19e0f0471c9cd2",
+    "commitId": "d6e218ee7d65e44429bd3c175d0b3b589c9d3457",
     "build": true,
     "test": true,
-    "coverage": 55.8,
+    "coverage": 87.1,
     "pmd": true
   },
   {
     "username": "GTiazara",
     "repositoryUrl": "https://github.com/GTiazara/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "91869db2699aec0ef21e11c18dac5d7cda437909",
+    "commitId": "5a1c8772380773f83352d94baebfedc259674acf",
     "build": true,
     "test": true,
-    "coverage": 89.4,
+    "coverage": 88.6,
     "pmd": true
   },
   {
     "username": "hait-oumajoud",
     "repositoryUrl": "https://gitlab.com/hait-oumajoud/tp-pattern-geometry",
     "branchName": "master",
-    "commitId": "aa569a778dc2deb80f3d88998e2cea44ee1feaca",
+    "commitId": "cdf7c5ce202682970ba09aeaf28af93cc77e6343",
     "build": true,
     "test": true,
-    "coverage": 94.4,
+    "coverage": 86.4,
     "pmd": true
   },
   {
@@ -93,10 +93,10 @@
     "username": "Jackigeo",
     "repositoryUrl": "https://github.com/Jackigeo/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "4873eab600339b40f757bf6e050b1339b7c9354e",
+    "commitId": "0f490cf6f24e19d9bc77c3b88f0ce992cf1bfc67",
     "build": true,
     "test": true,
-    "coverage": 97.7,
+    "coverage": 97.2,
     "pmd": true
   },
   {
