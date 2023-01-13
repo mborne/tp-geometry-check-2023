@@ -2,11 +2,12 @@
 <center><h2>Summary</h2></center>
 <table align="center" cellspacing="0" cellpadding="3">
 <tr><th>Rule name</th><th>Number of violations</th></tr>
-<tr><td>CloneMethodReturnTypeMustMatchClassName</td><td align=center>1</td></tr>
+<tr><td>CloneMethodReturnTypeMustMatchClassName</td><td align=center>2</td></tr>
+<tr><td>UselessParentheses</td><td align=center>1</td></tr>
 <tr><td>UseLocaleWithCaseConversions</td><td align=center>1</td></tr>
 <tr><td>UnusedPrivateField</td><td align=center>1</td></tr>
 <tr><td>SingularField</td><td align=center>1</td></tr>
-<tr><td>UnnecessaryImport</td><td align=center>3</td></tr>
+<tr><td>UnnecessaryImport</td><td align=center>1</td></tr>
 </table>
 <center><h2>Detail</h2></center><table align="center" cellspacing="0" cellpadding="3"><tr>
 <center><h3>PMD report</h3></center><center><h3>Problems found</h3></center><table align="center" cellspacing="0" cellpadding="3"><tr>
@@ -20,19 +21,19 @@
 <tr> 
 <td align="center">2</td>
 <td width="*%">org/acme/geometry/AbstractGeometry.java</td>
-<td align="center" width="5%">4</td>
-<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessaryimport">Unused import 'java.util.ArrayList'</a></td>
+<td align="center" width="5%">15</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#clonemethodreturntypemustmatchclassname">The return type of the clone() method must be the class name when implements Cloneable</a></td>
 </tr>
 <tr bgcolor="lightgrey"> 
 <td align="center">3</td>
-<td width="*%">org/acme/geometry/AbstractGeometry.java</td>
-<td align="center" width="5%">5</td>
-<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessaryimport">Unused import 'java.util.List'</a></td>
+<td width="*%">org/acme/geometry/GeometryCollection.java</td>
+<td align="center" width="5%">45</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#uselessparentheses">Useless parentheses.</a></td>
 </tr>
 <tr> 
 <td align="center">4</td>
-<td width="*%">org/acme/geometry/AbstractGeometry.java</td>
-<td align="center" width="5%">14</td>
+<td width="*%">org/acme/geometry/GeometryCollection.java</td>
+<td align="center" width="5%">60</td>
 <td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#clonemethodreturntypemustmatchclassname">The return type of the clone() method must be the class name when implements Cloneable</a></td>
 </tr>
 <tr bgcolor="lightgrey"> 

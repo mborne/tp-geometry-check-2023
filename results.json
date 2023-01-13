@@ -93,10 +93,10 @@
     "username": "Jackigeo",
     "repositoryUrl": "https://github.com/Jackigeo/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "0f490cf6f24e19d9bc77c3b88f0ce992cf1bfc67",
+    "commitId": "483539aa99af1f2ba047dde8cd8eabce8f71dfd0",
     "build": true,
     "test": true,
-    "coverage": 97.2,
+    "coverage": 97.7,
     "pmd": true
   },
   {
@@ -123,10 +123,10 @@
     "username": "LinaSaba",
     "repositoryUrl": "https://github.com/LinaSaba/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "f6bee4de4510b91a2d3bb69db46d5082783d3c1d",
+    "commitId": "5fdb6116d2f5e3791193e256b35442241f832cef",
     "build": true,
     "test": true,
-    "coverage": 71.7,
+    "coverage": 50.7,
     "pmd": true
   },
   {

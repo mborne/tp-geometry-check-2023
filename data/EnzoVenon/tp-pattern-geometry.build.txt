@@ -30,8 +30,8 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.185 s
-[INFO] Finished at: 2023-01-13T15:48:22+01:00
+[INFO] Total time:  1.408 s
+[INFO] Finished at: 2023-01-13T17:13:25+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project tp-pattern-geometry: Compilation failure
 [ERROR] /home/formation/workspace_mborne/tp-geometry-check-2023/data/EnzoVenon/tp-pattern-geometry/src/main/java/org/acme/geometry/GeometryWithCachedEnvelope.java:[3,8] org.acme.geometry.GeometryWithCachedEnvelope is not abstract and does not override abstract method onChange(org.acme.geometry.Geometry) in org.acme.geometry.GeometryListener
