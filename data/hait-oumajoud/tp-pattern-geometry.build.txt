@@ -16,38 +16,40 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------< org.acme:tp-pattern-geometry >--------------------
 [INFO] Building tp-pattern-geometry 0.1.0-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/maven-metadata.xml (810 B at 2.8 kB/s)
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tp-pattern-geometry ---
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (default) @ tp-pattern-geometry ---
-[INFO] argLine set to -javaagent:/home/formation/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/jacoco.exec
+[INFO] argLine set to -javaagent:/home/mickael/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/mickael/workspace_formation/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/jacoco.exec
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/resources
+[INFO] skip non existing resourceDirectory /home/mickael/workspace_formation/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 12 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/classes
-[WARNING] /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/java/org/acme/geometry/LineString.java: /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/java/org/acme/geometry/LineString.java uses unchecked or unsafe operations.
-[WARNING] /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/java/org/acme/geometry/LineString.java: Recompile with -Xlint:unchecked for details.
+[INFO] Compiling 12 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/classes
+[WARNING] /home/mickael/workspace_formation/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/java/org/acme/geometry/LineString.java: /home/mickael/workspace_formation/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/java/org/acme/geometry/LineString.java uses unchecked or unsafe operations.
+[WARNING] /home/mickael/workspace_formation/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/main/java/org/acme/geometry/LineString.java: Recompile with -Xlint:unchecked for details.
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/test/resources
+[INFO] skip non existing resourceDirectory /home/mickael/workspace_formation/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 8 source files to /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/test-classes
+[INFO] Compiling 8 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tp-pattern-geometry ---
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
-[INFO] Building jar: /home/formation/workspace_mborne/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/tp-pattern-geometry-0.1.0-SNAPSHOT.jar
+[INFO] Building jar: /home/mickael/workspace_formation/tp-geometry-check-2023/data/hait-oumajoud/tp-pattern-geometry/target/tp-pattern-geometry-0.1.0-SNAPSHOT.jar
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.920 s
-[INFO] Finished at: 2023-01-13T17:14:03+01:00
+[INFO] Total time:  2.198 s
+[INFO] Finished at: 2023-01-15T23:05:14+01:00
 [INFO] ------------------------------------------------------------------------

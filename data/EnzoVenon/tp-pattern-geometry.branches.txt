@@ -1,5 +1,4 @@
 * master
-  remotes/origin/EX0.2
   remotes/origin/HEAD -> origin/master
   remotes/origin/initial
   remotes/origin/master
