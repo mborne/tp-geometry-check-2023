@@ -16,8 +16,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] --------------------< org.acme:tp-pattern-geometry >--------------------
 [INFO] Building tp-pattern-geometry 0.1.0-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/maven-metadata.xml
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/maven-metadata.xml (810 B at 2.8 kB/s)
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tp-pattern-geometry ---
 [INFO] 
@@ -50,6 +48,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.198 s
-[INFO] Finished at: 2023-01-15T23:05:14+01:00
+[INFO] Total time:  1.449 s
+[INFO] Finished at: 2023-01-15T23:20:05+01:00
 [INFO] ------------------------------------------------------------------------

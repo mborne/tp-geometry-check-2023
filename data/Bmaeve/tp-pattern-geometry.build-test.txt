@@ -38,25 +38,25 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.EnvelopeTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
 Running org.acme.geometry.LineStringTest
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.AbstractGeometryTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.CoordinateTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.PointTest
 Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.LogGeometryVisitorTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
-Running org.acme.geometry.EnvelopeBuilderTest
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.acme.geometry.EnvelopeBuilderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.WktVisitorTest
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.GeometryWithCachedEnvelopeTest
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.WktWriterTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
 Results :
 
@@ -72,6 +72,6 @@ Tests run: 39, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.440 s
-[INFO] Finished at: 2023-01-15T23:04:30+01:00
+[INFO] Total time:  2.055 s
+[INFO] Finished at: 2023-01-15T23:19:21+01:00
 [INFO] ------------------------------------------------------------------------

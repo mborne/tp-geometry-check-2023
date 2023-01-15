@@ -2,6 +2,13 @@ const shell = require('shelljs');
 const repositories = require('./config/repositories.json');
 const fs = require('fs');
 
+const PMD_HOME = process.env.PMD_HOME || '/opt/pmd-bin-6.53.0';
+if ( ! fs.existsSync(PMD_HOME) ){
+    console.error(`PMD_HOME not found (expected : '${PMD_HOME}', see https://pmd.github.io/)`);
+    process.exit(1);
+}
+
+
 const getCoverage = require('./helpers/getCoverage');
 
 shell.mkdir('-p', __dirname + '/data');
@@ -92,7 +99,7 @@ for (const [username, repositoryUrl] of Object.entries(repositories)) {
         let pmdReportPath = `${repositoryDir}.pmd.html`;
         let pmdConfigPath = __dirname+'/config/pmd.xml';
         // TODO PMD_PATH
-        let commandPmd = `/opt/pmd-bin-6.53.0/bin/run.sh pmd --dir src/main/java --rulesets ${pmdConfigPath} --short-names --format summaryhtml --report-file ${pmdReportPath}`;
+        let commandPmd = `${PMD_HOME}/bin/run.sh pmd --dir src/main/java --rulesets ${pmdConfigPath} --short-names --format summaryhtml --report-file ${pmdReportPath}`;
         shell.exec(commandPmd,{silent: true});
         result.pmd = fs.existsSync(pmdReportPath);
         console.log('PMD : ' + (result.pmd ? 'SUCCESS' : 'FAILURE'));

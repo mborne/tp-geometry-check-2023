@@ -7,7 +7,7 @@
     "build": true,
     "test": true,
     "coverage": 90.8,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Bmaeve",
@@ -17,7 +17,7 @@
     "build": true,
     "test": true,
     "coverage": 97.9,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Emmaloup13",
@@ -27,7 +27,7 @@
     "build": true,
     "test": true,
     "coverage": 96.5,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "EnzoVenon",
@@ -37,7 +37,7 @@
     "build": true,
     "test": true,
     "coverage": 98.6,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Erzalt",
@@ -47,7 +47,7 @@
     "build": true,
     "test": true,
     "coverage": 95.1,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Fernando-IRQ",
@@ -57,7 +57,7 @@
     "build": true,
     "test": true,
     "coverage": 88.8,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "GTiazara",
@@ -67,7 +67,7 @@
     "build": true,
     "test": true,
     "coverage": 88.6,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "hait-oumajoud",
@@ -77,7 +77,7 @@
     "build": true,
     "test": true,
     "coverage": 94.7,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "IlonaBaran",
@@ -87,7 +87,7 @@
     "build": true,
     "test": true,
     "coverage": 95.8,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Jackigeo",
@@ -97,7 +97,7 @@
     "build": true,
     "test": true,
     "coverage": 97.7,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "jonathanboris",
@@ -107,7 +107,7 @@
     "build": true,
     "test": true,
     "coverage": 91.7,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "kingatsa",
@@ -117,7 +117,7 @@
     "build": true,
     "test": true,
     "coverage": 98.6,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "LinaSaba",
@@ -127,7 +127,7 @@
     "build": true,
     "test": true,
     "coverage": 50.3,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Nelcannelle",
@@ -137,7 +137,7 @@
     "build": true,
     "test": true,
     "coverage": 91,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "OmranEdoo",
@@ -147,7 +147,7 @@
     "build": true,
     "test": false,
     "coverage": 0,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "Sam-design99",
@@ -157,7 +157,7 @@
     "build": true,
     "test": true,
     "coverage": 52.4,
-    "pmd": false
+    "pmd": true
   },
   {
     "username": "VenziaTurmoil",
@@ -167,6 +167,6 @@
     "build": true,
     "test": true,
     "coverage": 95.1,
-    "pmd": false
+    "pmd": true
   }
 ]
