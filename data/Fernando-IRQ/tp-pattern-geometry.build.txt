@@ -20,7 +20,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 7 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/Fernando-IRQ/tp-pattern-geometry/target/classes
+[INFO] Compiling 9 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/Fernando-IRQ/tp-pattern-geometry/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -38,6 +38,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.333 s
-[INFO] Finished at: 2023-01-15T23:19:49+01:00
+[INFO] Total time:  1.512 s
+[INFO] Finished at: 2023-01-16T07:30:47+01:00
 [INFO] ------------------------------------------------------------------------

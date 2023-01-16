@@ -53,10 +53,10 @@
     "username": "Fernando-IRQ",
     "repositoryUrl": "https://github.com/Fernando-IRQ/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "0680cedf47d986396212b7f1cf01c1656b0bb577",
+    "commitId": "a8c2ef31de6c9ba379c91578a6c04c5823e0b611",
     "build": true,
     "test": true,
-    "coverage": 88.8,
+    "coverage": 78.9,
     "pmd": true
   },
   {
@@ -103,10 +103,10 @@
     "username": "jonathanboris",
     "repositoryUrl": "https://github.com/jonathanboris/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "e5c3ff113c4951dcb2fb9153267377afd890b004",
+    "commitId": "b14b9a971c186a4222bc40408139c92bfb446aa8",
     "build": true,
     "test": true,
-    "coverage": 91.7,
+    "coverage": 91.4,
     "pmd": true
   },
   {
@@ -153,10 +153,10 @@
     "username": "Sam-design99",
     "repositoryUrl": "https://github.com/Sam-design99/tp-pattern-geometry",
     "branchName": "initial",
-    "commitId": "f8e83d64ee7b355f4570f605a367227a84c43b89",
+    "commitId": "d3385640bd2596c6b7a6b2d3d774448a5c8a08c2",
     "build": true,
     "test": true,
-    "coverage": 52.4,
+    "coverage": 66.6,
     "pmd": true
   },
   {

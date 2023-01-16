@@ -21,7 +21,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 7 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/Fernando-IRQ/tp-pattern-geometry/target/classes
+[INFO] Compiling 9 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/Fernando-IRQ/tp-pattern-geometry/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -38,7 +38,7 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.LineStringTest
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec
 Running org.acme.geometry.CoordinateTest
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.PointTest
@@ -46,7 +46,7 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.EnvelopeBuilderTest
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.WktWiterTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
 
 Results :
 
@@ -58,10 +58,10 @@ Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- jacoco-maven-plugin:0.8.6:report (default-cli) @ tp-pattern-geometry ---
 [INFO] Loading execution data file /home/mickael/workspace_formation/tp-geometry-check-2023/data/Fernando-IRQ/tp-pattern-geometry/target/jacoco.exec
-[INFO] Analyzed bundle 'tp-pattern-geometry' with 6 classes
+[INFO] Analyzed bundle 'tp-pattern-geometry' with 7 classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.946 s
-[INFO] Finished at: 2023-01-15T23:19:51+01:00
+[INFO] Total time:  3.081 s
+[INFO] Finished at: 2023-01-16T07:30:51+01:00
 [INFO] ------------------------------------------------------------------------

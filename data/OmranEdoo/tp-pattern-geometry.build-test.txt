@@ -38,16 +38,16 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.EnvelopeTest
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
 Running org.acme.geometry.LineStringTest
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
 Running org.acme.geometry.CoordinateTest
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.PointTest
 Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 Running org.acme.geometry.LogGeometryVisitorTest
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
-testVisitorPoint(org.acme.geometry.LogGeometryVisitorTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE!
+testVisitorPoint(org.acme.geometry.LogGeometryVisitorTest)  Time elapsed: 0.007 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Je suis un point avec x=3.0 et y=4.0]> but was:<[]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
@@ -82,7 +82,7 @@ org.junit.ComparisonFailure: expected:<[Je suis un point avec x=3.0 et y=4.0]> b
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testVisitorLineString(org.acme.geometry.LogGeometryVisitorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+testVisitorLineString(org.acme.geometry.LogGeometryVisitorTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Je suis une polyligne définie par 2 point(s)]> but was:<[]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
@@ -118,9 +118,9 @@ org.junit.ComparisonFailure: expected:<[Je suis une polyligne définie par 2 poi
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
 Running org.acme.geometry.EnvelopeBuilderTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.WktWriterTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
 
 Results :
 
@@ -132,8 +132,8 @@ Tests run: 32, Failures: 2, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.934 s
-[INFO] Finished at: 2023-01-15T23:21:08+01:00
+[INFO] Total time:  2.403 s
+[INFO] Finished at: 2023-01-16T07:32:38+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project tp-pattern-geometry: There are test failures.
 [ERROR] 

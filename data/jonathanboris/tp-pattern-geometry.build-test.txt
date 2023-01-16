@@ -21,7 +21,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ tp-pattern-geometry ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 12 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/jonathanboris/tp-pattern-geometry/target/classes
+[INFO] Compiling 13 source files to /home/mickael/workspace_formation/tp-geometry-check-2023/data/jonathanboris/tp-pattern-geometry/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tp-pattern-geometry ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -38,17 +38,17 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.EnvelopeTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec
 Running org.acme.geometry.LineStringTest
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
 Running org.acme.geometry.CoordinateTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 Running org.acme.geometry.PointTest
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
 
 Results :
 
-Tests run: 31, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tp-pattern-geometry ---
@@ -60,6 +60,6 @@ Tests run: 31, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.014 s
-[INFO] Finished at: 2023-01-15T23:20:32+01:00
+[INFO] Total time:  3.427 s
+[INFO] Finished at: 2023-01-16T07:31:51+01:00
 [INFO] ------------------------------------------------------------------------

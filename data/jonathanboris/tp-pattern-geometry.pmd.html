@@ -6,7 +6,6 @@
 <tr><td>LocalVariableNamingConventions</td><td align=center>4</td></tr>
 <tr><td>FormalParameterNamingConventions</td><td align=center>3</td></tr>
 <tr><td>UnnecessaryLocalBeforeReturn</td><td align=center>3</td></tr>
-<tr><td>SingularField</td><td align=center>1</td></tr>
 <tr><td>UnnecessaryImport</td><td align=center>6</td></tr>
 </table>
 <center><h2>Detail</h2></center><table align="center" cellspacing="0" cellpadding="3"><tr>
@@ -63,65 +62,59 @@
 <tr bgcolor="lightgrey"> 
 <td align="center">9</td>
 <td width="*%">org/acme/geometry/GeometryWithCachedEnvelope.java</td>
-<td align="center" width="5%">5</td>
-<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#singularfield">Perhaps 'original' could be replaced by a local variable.</a></td>
+<td align="center" width="5%">26</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#clonemethodreturntypemustmatchclassname">The return type of the clone() method must be the class name when implements Cloneable</a></td>
 </tr>
 <tr> 
 <td align="center">10</td>
-<td width="*%">org/acme/geometry/GeometryWithCachedEnvelope.java</td>
-<td align="center" width="5%">21</td>
-<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#clonemethodreturntypemustmatchclassname">The return type of the clone() method must be the class name when implements Cloneable</a></td>
-</tr>
-<tr bgcolor="lightgrey"> 
-<td align="center">11</td>
 <td width="*%">org/acme/geometry/LineString.java</td>
 <td align="center" width="5%">3</td>
 <td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessaryimport">Unused import 'java.lang.annotation.Target'</a></td>
 </tr>
-<tr> 
-<td align="center">12</td>
+<tr bgcolor="lightgrey"> 
+<td align="center">11</td>
 <td width="*%">org/acme/geometry/LineString.java</td>
 <td align="center" width="5%">15</td>
 <td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#formalparameternamingconventions">The method parameter name '_points' doesn't match '[a-z][a-zA-Z0-9]*'</a></td>
 </tr>
-<tr bgcolor="lightgrey"> 
-<td align="center">13</td>
+<tr> 
+<td align="center">12</td>
 <td width="*%">org/acme/geometry/LineString.java</td>
 <td align="center" width="5%">58</td>
 <td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn">Consider simply returning the value vs storing it in local variable 'envelope'</a></td>
 </tr>
-<tr> 
-<td align="center">14</td>
+<tr bgcolor="lightgrey"> 
+<td align="center">13</td>
 <td width="*%">org/acme/geometry/LogGeometryVisitor.java</td>
 <td align="center" width="5%">3</td>
 <td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessaryimport">Unused import 'java.io.ByteArrayOutputStream'</a></td>
 </tr>
+<tr> 
+<td align="center">14</td>
+<td width="*%">org/acme/geometry/Point.java</td>
+<td align="center" width="5%">37</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn">Consider simply returning the value vs storing it in local variable 'pointClone'</a></td>
+</tr>
 <tr bgcolor="lightgrey"> 
 <td align="center">15</td>
 <td width="*%">org/acme/geometry/Point.java</td>
-<td align="center" width="5%">36</td>
-<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn">Consider simply returning the value vs storing it in local variable 'pointClone'</a></td>
+<td align="center" width="5%">46</td>
+<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn">Consider simply returning the value vs storing it in local variable 'envelope'</a></td>
 </tr>
 <tr> 
 <td align="center">16</td>
-<td width="*%">org/acme/geometry/Point.java</td>
-<td align="center" width="5%">45</td>
-<td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn">Consider simply returning the value vs storing it in local variable 'envelope'</a></td>
-</tr>
-<tr bgcolor="lightgrey"> 
-<td align="center">17</td>
 <td width="*%">org/acme/geometry/WktVisitor.java</td>
 <td align="center" width="5%">3</td>
 <td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessaryimport">Unused import 'java.io.ByteArrayOutputStream'</a></td>
 </tr>
-<tr> 
-<td align="center">18</td>
+<tr bgcolor="lightgrey"> 
+<td align="center">17</td>
 <td width="*%">org/acme/geometry/WktVisitor.java</td>
 <td align="center" width="5%">4</td>
 <td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessaryimport">Unused import 'java.io.PrintStream'</a></td>
 </tr>
-<tr bgcolor="lightgrey"> 
-<td align="center">19</td>
+<tr> 
+<td align="center">18</td>
 <td width="*%">org/acme/geometry/WktVisitor.java</td>
 <td align="center" width="5%">5</td>
 <td width="*"><a href="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessaryimport">Unused import 'java.io.UnsupportedEncodingException'</a></td>
