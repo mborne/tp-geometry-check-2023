@@ -17,7 +17,7 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] Building tp-pattern-geometry 0.1.0-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/maven-metadata.xml
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/maven-metadata.xml (1.4 kB at 4.3 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/maven-metadata.xml (1.4 kB at 3.5 kB/s)
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tp-pattern-geometry ---
 [INFO] 
@@ -48,6 +48,6 @@ WARNING: All illegal access operations will be denied in a future release
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.522 s
-[INFO] Finished at: 2023-01-16T07:32:57+01:00
+[INFO] Total time:  3.161 s
+[INFO] Finished at: 2023-01-18T06:12:10+01:00
 [INFO] ------------------------------------------------------------------------

@@ -38,29 +38,29 @@ WARNING: All illegal access operations will be denied in a future release
  T E S T S
 -------------------------------------------------------
 Running org.acme.geometry.EnveloppeTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec
 Running org.acme.geometry.LineStringTest
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
 Running org.acme.geometry.CoordinateTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.PointTest
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
 Running org.acme.geometry.EnveloppeBuilderTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running org.acme.geometry.LogGeometryVisitorTest
 Je suis un point avec x=2.0 et y=3.0
 Je suis une polyligne définie par 3 point(s)
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
 Running org.acme.geometry.WktVisitorTest
 LINESTRING(0.0 0.0,1.0 1.0,5.0 5.0)
 LINESTRING EMPTY
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
 Running org.acme.geometry.WktWriterTest
 POINT(3.0 4.0)
 LINESTRING(0.0 0.0,1.0 1.0,5.0 5.0)
 LINESTRING EMPTY
 POINT EMPTY
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
 
 Results :
 
@@ -76,6 +76,6 @@ Tests run: 36, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.881 s
-[INFO] Finished at: 2023-01-16T07:32:05+01:00
+[INFO] Total time:  5.225 s
+[INFO] Finished at: 2023-01-18T06:10:53+01:00
 [INFO] ------------------------------------------------------------------------
